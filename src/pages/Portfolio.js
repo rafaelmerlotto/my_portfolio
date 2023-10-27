@@ -1,9 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
-import View from '../components/View'
-import Footer from '../components/Footer'
-import  { ContentData } from '../components/Container'
-import Contact from '../components/Contact'
+import Header from '../components/header/Header'
+import View from '../components/view/View'
+import Footer from '../components/footer/Footer'
+import Info from '../components/info/Info'
 
 
 export default function Portfolio() {
@@ -14,8 +13,8 @@ export default function Portfolio() {
     <>
       <Header />
       <View />
-     <ContentData/>
-     <Footer/>
+      <Info />
+      <Footer />
     </>
   )
 }

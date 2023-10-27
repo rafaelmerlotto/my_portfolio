@@ -3,16 +3,17 @@ import github from '../images/github.png'
 import linkedin from '../images/linkedin.png'
 import tel from '../images/telefone.png'
 import gmail from '../images/gmail.png'
+import './contact.css'
 
 export default function Contact() {
     return (
         <div className='contact'>
            
             <div className='social-media'>
-                <a href='https://github.com/rafaelmerlotto'>
-                    <img width="64" height="64" src={github} alt="github" />
+                <a href='https://github.com/rafaelmerlotto' target='_blank' >
+                    <img width="64" height="64" src={github} alt="github"   />
                 </a >
-                <a href='https://www.linkedin.com/in/rafael-merlotto-715266101/'>
+                <a href='https://www.linkedin.com/in/rafael-merlotto-715266101/' target='_blank' >
                     <img width="64" height="64" src={linkedin} alt="linkedin" />
                 </a>
             </div>

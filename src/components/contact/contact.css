@@ -1,0 +1,33 @@
+.contact {
+
+    height: 200px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contacts{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts .link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 5px;
+  }
+  
+  .social-media{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media a{
+    margin: 10px 50px 10px 10px;
+  }

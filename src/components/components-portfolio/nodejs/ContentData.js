@@ -1,6 +1,7 @@
-import imgtodo from '../images/img/todopic.png'
-import imgcrypto from '../images/img/crypto.png'
-import imgPomodoroTimer from '../images/img/pomodorotimer.png'
+import imgtodo from '../../images/img/todopic.png'
+import imgcrypto from '../../images/img/crypto.png'
+import imgPomodoroTimer from '../../images/img/pomodorotimer.png'
+import imgQRcode from '../../images/img/qrcode.png'
 
 export const nodejsData = [
     {
@@ -26,5 +27,12 @@ export const nodejsData = [
         Prende la lista delle criptovalute con le informazioni ottenute da API CoinGecko",
         img: imgcrypto ,
         link: 'https://github.com/rafaelmerlotto/cryptovalute-app'
+    },
+    {
+        title: 'QRcode generate',
+        description: "Questa è una web app generate QRcode, um campo per il testo e un bottone per generare.\n\
+        ho ultilizzato typescript, e per le dependencies qrcode",
+        img: imgQRcode ,
+        link: 'https://github.com/rafaelmerlotto/generate-QRcode'
     },
 ]
