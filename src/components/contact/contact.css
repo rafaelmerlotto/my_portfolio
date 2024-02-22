@@ -31,3 +31,23 @@
   .social-media a{
     margin: 10px 50px 10px 10px;
   }
+  .contacts a{
+    color: #b0b6bc;
+  }
+
+
+  @media screen and (max-width:768px) {
+    .contact {
+      flex-direction: column;
+    }
+    .social-media a{
+      margin: 10px 10px 10px 10px;
+    }
+    .social-media a img{
+      height: 50px;
+      width: 50px;
+    }
+    .contacts .link{
+      font-size: 15px;
+    }
+  }

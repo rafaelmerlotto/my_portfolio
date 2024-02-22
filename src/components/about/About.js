@@ -10,13 +10,11 @@ export default function About() {
             </div>
             <div className='description'>
                 <h3>About</h3>
-                <p>Sono uno sviluppatore web full stack Jr appassionato e motivato nel creare applicazioni front-end e back-end.
-                    Sono in continua formazione e costantemente alla ricerca di nuove opportunità per espandere le mie
-                    competenze e conoscenze.
-                    Sviluppo principalmente in HTML5, CSS, JavaScript, React ,typeScript, Node.js.
-                    Ho familiarità con lo sviluppo in PHP on MySQL e WordPress.
-                    Mi ritengo una persona organizzata e in grado di lavorare in team. Affronto nuove materie di studio con forte
-                    motivazione e impegno costante.</p>
+                <p>I am a passionate and motivated full-stack web developer with a focus on building both front-end and back-end applications. 
+                    Continuously seeking opportunities to expand my skills and knowledge, I specialize in JavaScript, React, TypeScript, and Node.js.
+                     Known for my organizational skills, I thrive in collaborative team environments.
+                     I approach new challenges with strong motivation and a commitment to ongoing learning.
+                </p>
             </div>
         </div>
     )

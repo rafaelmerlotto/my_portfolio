@@ -11,7 +11,7 @@ export default function Header() {
     return (
             <div className="header">
                 <div className="logo">
-                    <img src={logo} />
+                  <img src={logo} /> 
                 </div>
                 <div className="nav">
                     <Link className="link" to={'/'}>Home</Link>

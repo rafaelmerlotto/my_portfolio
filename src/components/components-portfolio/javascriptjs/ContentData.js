@@ -11,7 +11,7 @@ export const javascriptjsData = [
         link: 'https://github.com/rafaelmerlotto/sasso-forbice-carta'
     },
     {
-        title: 'Converti Celsius a Fahrenheit',
+        title: 'Converti °C a °F',
         description: "Applicazione con la possibilità di inserire il numero desiderato in °C, un buttom per fare la conversione, di seguito l'output in °F.",
         img: imgConverterGradi,
         link: 'https://github.com/rafaelmerlotto/Celsius-to-Fahrenheit'

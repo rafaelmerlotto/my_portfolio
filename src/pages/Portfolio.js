@@ -12,9 +12,7 @@ export default function Portfolio() {
 
     <>
       <Header />
-      <View />
       <Info />
-      <Footer />
     </>
   )
 }
