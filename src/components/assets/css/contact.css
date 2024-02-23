@@ -1,0 +1,43 @@
+.contact {
+
+    height: 200px;
+    margin: 10px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contacts{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .social-media{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media a{
+    margin: 10px 50px 10px 10px;
+  }
+  
+
+
+  @media screen and (max-width:768px) {
+    .contact {
+      flex-direction: column;
+    }
+    .social-media a{
+      margin: 10px 10px 10px 10px;
+    }
+    .social-media a img{
+      height: 30px;
+      width: 30px;
+    }
+    
+  }
