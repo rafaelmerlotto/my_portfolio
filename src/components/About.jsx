@@ -1,6 +1,6 @@
 import React from 'react'
-import picture from './images/Rafael-Merlotto.jpg'
-import './assets/css/about.css'
+import picture from '../images/Rafael-Merlotto.jpg'
+import '../assets/css/about.css'
 
 export default function About() {
     return (

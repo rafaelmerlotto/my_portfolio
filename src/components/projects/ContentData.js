@@ -1,8 +1,7 @@
-import imgtodo from '../images/img/todopic.png'
-import imgWeatherapp from '../images/img/weather_app.png'
-import imgtrackerFinance from '../images/img/app-tracker-responsive.png'
-import imgBlogMedia from '../images/img/blog-media.png'
-import imgBrew from '../images/img/brew.png'
+import imgtodo from '../../images/img/todopic.png'
+import imgtrackerFinance from '../../images/img/app-tracker-responsive.png'
+import imgBlogMedia from '../../images/img/blog-media.png'
+import imgAIVoices from '../../images/img/ai-voices.png'
 
 export const projectsData = [
     {
@@ -32,11 +31,11 @@ export const projectsData = [
         link: 'https://github.com/rafaelmerlotto/project-api-todo'
     },
     {
-        title: 'Project App Brew',
-        description: "This project manages a home brewing application. The application is composed of two parts: backend and frontend,\n\
-         both of which are independent. The application is responsive, adapting to all devices based on their width. The frontend was developed in Angular.",
-        img: imgBrew,
-        link: 'https://github.com/antoniotassone94/project_app_brew'
+        title: 'Generate AI voices',
+        description: "In this application, I utilized the OpenAI API to convert text into audio. The backend functions as a mechanism that extracts the voice name and text from the request body.\n\
+         The frontend comprises a page where users can select their preferred voice, a text field for inputting the text to be transformed into audio, and an audio playback option for listening.",
+        img: imgAIVoices,
+        link: 'https://github.com/rafaelmerlotto/openai_voice_app'
     },
     // {
     //     title: 'Weather app',

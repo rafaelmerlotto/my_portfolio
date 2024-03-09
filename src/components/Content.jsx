@@ -1,5 +1,5 @@
 import React from 'react'
-import'./assets/css/content.css'
+import'../assets/css/content.css'
 
 
 export default function Content() {

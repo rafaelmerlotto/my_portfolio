@@ -1,6 +1,6 @@
 import React from 'react'
-import githubImg from './images/github.png'
-import './assets/css/container.css'
+import githubImg from '../images/github.png'
+import '../assets/css/container.css'
 import { Link } from 'react-router-dom'
 
 export default function Container({ container, children }) {

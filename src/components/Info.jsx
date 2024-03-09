@@ -1,5 +1,5 @@
 import React from 'react'
-import './assets/css/info.css'
+import '../assets/css/info.css'
 import Container from './Container'
 import { projectsData } from './projects/ContentData'
 import Footer from './Footer'

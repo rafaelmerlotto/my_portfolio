@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header'
 import View from '../View'
-import Footer from '..//Footer'
+import Footer from '../Footer'
 import {projectsData} from './ContentData'
 import Container from '../Container'
 
