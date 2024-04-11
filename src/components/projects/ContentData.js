@@ -1,8 +1,8 @@
-import imgtodo from '../../images/img/todopic.png'
-import imgtrackerFinance from '../../images/img/app-tracker-responsive.png'
-import imgBlogMedia from '../../images/img/blog-media.png'
-import imgAIVoices from '../../images/img/ai-voices.png'
-import imgTasks from '../../images/img/tasks.png'
+import imgtodo from '../../assets/images/img/todopic.png'
+import imgtrackerFinance from '../../assets/images/img/app-tracker-responsive.png'
+import imgBlogMedia from '../../assets/images/img/blog-media.png'
+import imgAIVoices from '../../assets/images/img/ai-voices.png'
+import imgTasks from '../../assets/images/img/tasks.png'
 
 export const projectsData = [
     {

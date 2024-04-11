@@ -1,4 +1,4 @@
-import pizzaCalculator from '../../images/img/calculatorPizza.png'
+import pizzaCalculator from "../../assets/images/img/calculatorPizza.png"
 
 export const mobileData = [
     {
