@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../Header'
-import View from '../View'
 import Footer from '../Footer'
 import {projectsData} from './ContentData'
 import Container from '../Container'
@@ -8,8 +7,7 @@ import Container from '../Container'
 export default function Projects() {
   return (
     <React.Fragment>
-        <Header/>
-        <View/>
+        <Header/> 
         <ContentData/>
         <Footer/>
     </React.Fragment>
@@ -17,7 +15,7 @@ export default function Projects() {
 }
 
 
-export const ContentData = () => {
+ const ContentData = () => {
   return (
     <div className='container'>
      {
