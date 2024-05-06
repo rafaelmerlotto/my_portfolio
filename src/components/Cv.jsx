@@ -34,8 +34,8 @@ export default function Cv() {
                         </div>
                         <div className='presentation'>
                             <p>Sono uno sviluppatore web full stack appassionato e motivato nel creare applicazioni front-end e back-end e soluzioni web innovative e user-friendly.
-                                <br /> Sono in continua formazione e costantemente alla ricerca di nuove opportunità per espandere le mie
-                                competenze e conoscenze. <br /> Mi ritengo una persona organizzata e in grado di lavorare in team. Affronto nuove materie di studio con forte
+                                <br />  <br /> Sono in continua formazione e costantemente alla ricerca di nuove opportunità per espandere le mie
+                                competenze e conoscenze. <br /> <br /> Mi ritengo una persona organizzata e in grado di lavorare in team. Affronto nuove materie di studio con forte
                                 motivazione e impegno costante.</p>
 
                         </div>
@@ -170,7 +170,7 @@ export default function Cv() {
                         <div className='box'>
                             <h6>Progetti <hr /></h6>
                             <div className='content-i'>
-                             <a href="http://github.com/rafaelmerlotto">https://github.com/rafaelmerlotto</a> <br />
+                             <a href="http://github.com/rafaelmerlotto">github.com/rafaelmerlotto</a> <br />
                              {/* <a href="http://github.com/rafaelmerlotto">Portfolio</a>  */}
                             </div>
                         </div>
