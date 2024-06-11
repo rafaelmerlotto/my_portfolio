@@ -11,14 +11,14 @@
 .skills {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+  
     justify-content: center;
     margin-top: 70px;
 }
 
 .skills .info {
-    width: 20%;
-    height: 170px;
+    width: 15%;
+    height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,15 +71,23 @@
 @media screen and (max-width:768px) {
     .info-container {
         height: auto;
+        width: 100%;
+       
     }
 
     .info-container h2 {
         font-size: 24px;
     }
+    .skills{
+        flex-direction: column;
+    }
 
     .skills .info {
         width: 100%;
-        height: 170px;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        
     }
 
     .info h4 {

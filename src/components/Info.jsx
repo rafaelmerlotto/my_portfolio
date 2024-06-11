@@ -33,6 +33,10 @@ export default function Info() {
           <h4><img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg' height={40} /></h4>
           <p>Typescript for the ability to type and add interfaces, facilitating better code organization.</p>
         </div>
+        <div className='info'>
+          <h4><img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg' height={40} /></h4>
+          <p>Ruby on Rails framework to deliver scalable, high-performance, and user-centric solutions. Adept at working in agile environments, following best practices, and utilizing modern development tools and methodologies.</p>
+        </div>
       </div>
       <h4>Projects</h4>
       <hr />

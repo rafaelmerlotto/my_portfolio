@@ -11,7 +11,7 @@ export default function About() {
             <div className='description'>
                 <h3>About me</h3>
                 <p>I am a passionate and motivated full-stack web developer with a focus on building both front-end and back-end applications.<br/>
-                    Continuously seeking opportunities to expand my skills and knowledge, I specialize in JavaScript, React, TypeScript, and Node.js.<br/>
+                    Continuously seeking opportunities to expand my skills and knowledge, I specialize in JavaScript, React, TypeScript, Node.js and Ruby on Rails.<br/>
                      Known for my organizational skills, I thrive in collaborative team environments.<br/>
                      I approach new challenges with strong motivation and a commitment to ongoing learning.
                 </p>

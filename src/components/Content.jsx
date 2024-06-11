@@ -7,7 +7,7 @@ export default function Content() {
         <div className='contents'>
             <div className='title'>
                 <h4>Full Stack Web Developer</h4> <br/> 
-                <p>Node.js | React | JavaScript | typeScript</p>
+                <p>Node.js | React | JavaScript | typeScript | Ruby on Rails</p>
             <hr />
             </div>
         </div>

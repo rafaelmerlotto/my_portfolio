@@ -9,6 +9,10 @@ export const mobileData = [
         img: pizzaCalculator,
         imgLink: "https://i.imgur.com/WAfkVis.png",
         link: 'https://github.com/rafaelmerlotto/pizza_dough_calculator',
+        techUsed: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+        techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg",
+        techUsed4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg",
     },
     {
         title: 'Tasks app',
@@ -17,5 +21,9 @@ export const mobileData = [
         img: tasksApp,
         imgLink: "https://i.imgur.com/EEH7Uml.png",
         link: 'https://github.com/rafaelmerlotto/tasks_app',
+        techUsed: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+        techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg",
+        techUsed4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg",
     }
 ]

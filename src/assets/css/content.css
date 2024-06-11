@@ -33,6 +33,15 @@
 .title h4{
   font-size: 24px;
 }
+.title p{
+  font-size: 13px;
+ padding: 5px;
+  color: #4b4f56;
+}
+.title hr{
+  height: 1px;
  
-   
+  margin: 0 10px 0 10px ;
+  border: 1px solid #ff5722;
+}
 }
