@@ -22,11 +22,11 @@ export const projectsData = [
 },
     {
     title: 'Stock management vet',
-    description: "Static website for a dealership designed to provide detailed information on available vehicles, services offered and contact details\n\
-        Developed using React for functionality and Tailwind CSS along with MaterialUI for design",
+    description: "Application for managing the storage of veterinary products, developed using Ruby on Rails and adhering \n\
+    to various best practices. PostgreSQL was utilized for the database management.",
     img: imgStockvet,
-    imgLink: "https://cv-motors.vercel.app/",
-    link: 'https://cv-motors.vercel.app/',
+    imgLink: "",
+    link: 'https://github.com/rafaelmerlotto/stock_vet',
     techUsed: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg",
     techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
     techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
