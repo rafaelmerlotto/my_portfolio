@@ -16,7 +16,7 @@ export default function Header() {
                 <div className="nav">
                     <Link className="link" to={'/'}>Home</Link>
                     <Link className="link" to={'/portfolio'}>Portfolio</Link>
-                    <Link className="link" to={'/cv'}>Curriculum</Link>
+                    <Link className="link" to={'/cv'}>CV</Link>
                 </div>
             </div>
     )
