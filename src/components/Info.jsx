@@ -9,7 +9,6 @@ import MobileProjects from './projects/MobileProjects'
 export default function Info() {
 
   const [switchDev, setSwitchDev] = useState(true)
-  const [switchClick, setSwitchClick] = useState(true)
   const [color, setColor] = useState("#ff5722")
 
 

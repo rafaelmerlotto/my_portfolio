@@ -43,7 +43,7 @@
     height: 60%;
     font-size: 15px;
     /* color: #2e2e2d; */
-    color: #4b4f56;
+    color: #7c8189;
     margin: 9px;
 }
 
@@ -62,6 +62,7 @@
     justify-content: center;
     gap: 55px
 }
+
 
 .switch h6 {
     cursor: pointer;
