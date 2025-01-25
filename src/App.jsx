@@ -4,6 +4,7 @@ import Portfolio from "./pages/Portfolio";
 import Cv from "./components/Cv";
 import CvPT from "./components/CvPT";
 import Curriculum from "./pages/Curriculum";
+import "../src/assets/css/style.css"
 
 function App() {
   return (

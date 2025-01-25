@@ -6,8 +6,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color:  #222831;
- 
+
 }
 
 .about .picture {
@@ -26,12 +25,12 @@
 
 .about .description p {
   font-size: 19px;
-  
+
   color: #7c8189;
 }
 
 .about .description h3 {
-  color: #eeeeee;
+  color: var(--title-color);
 }
 
 
@@ -40,19 +39,24 @@
     height: auto;
     flex-direction: column;
   }
-  .about .description{
+
+  .about .description {
     width: 90%;
 
   }
-  .about .picture{
+
+  .about .picture {
     margin-top: 40px;
   }
-  .about .description p{
+
+  .about .description p {
     font-size: 17px;
   }
-  .picture img{
+
+  .picture img {
     height: 200px;
   }
+
   .about .description h3 {
     margin: 0;
     text-align: center;

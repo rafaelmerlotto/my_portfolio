@@ -1,7 +1,8 @@
 import React from 'react'
 import githubImg from '../assets/images/github.png'
-import '../assets/css/container.css'
 import { Link } from 'react-router-dom'
+import { Github } from 'lucide-react';
+
 
 export default function Container({ container, children }) {
   const { title, description, img, imgLink, link, techUsed, techUsed2, techUsed3, techUsed4, techUsed5 } = container
@@ -27,7 +28,7 @@ export default function Container({ container, children }) {
       <div className='contents-2'>
         <Link className='link' to={imgLink} target='_blank'><img src={img} alt={img} /> </Link>
         <div className='box-link'>
-          <img className='github-link' src={githubImg} /> <a href={link} target='_blank'>Repository</a>
+          <Github className='github-link' /> <p>Repository </p>
         </div>
       </div>
       {children}

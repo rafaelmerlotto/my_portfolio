@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import '../assets/css/info.css'
 import Container from './Container'
 import { projectsData } from './projects/ContentData'
 import Footer from './Footer'
@@ -40,8 +39,8 @@ export default function Info() {
       <h4>Projects</h4>
       <hr />
       <div className='switch'>
-        <h6 className='switchBtn' onMouseEnter={(e) => e.target.style.color= color} onMouseLeave={(e) => e.target.style.color= "#eeeeee"} onClick={() => setSwitchDev(true)}>Web development</h6>
-        <h6 className='switchBtn' onMouseEnter={(e) => e.target.style.color= color} onMouseLeave={(e) => e.target.style.color= "#eeeeee"} onClick={() => setSwitchDev(false)} >Mobile development</h6>
+        <h6 className='switchBtn' onClick={() => setSwitchDev(true)}>Web development</h6>
+        <h6 className='switchBtn' onClick={() => setSwitchDev(false)} >Mobile development</h6>
       </div>
 
       {switchDev ? <ContentData /> : <MobileProjects />}

@@ -23,7 +23,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #222831;
     margin: 20px;
     border-radius: 3px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -31,11 +30,11 @@
 
 .info-container h4 {
     margin-top: 40px;
-    color: #eeeeee;
+    color: var(--link-color);
 }
 
 .info h4 {
-    color: #4b4f56;
+    color: var(--link-color);
     margin: 10px;
 }
 
@@ -43,7 +42,7 @@
     height: 60%;
     font-size: 15px;
     /* color: #2e2e2d; */
-    color: #7c8189;
+   
     margin: 9px;
 }
 
@@ -51,7 +50,7 @@
     height: 1px;
     width: 30%;
     margin: 0;
-    border: 1px solid #ff5722;
+    border: 1px solid var(--link-color);
 }
 
 .switch {
@@ -66,7 +65,8 @@
 
 .switch h6 {
     cursor: pointer;
-    color: #eeeeee;
+    color: var(--link-color);
+
 }
 
 @media screen and (max-width:768px) {

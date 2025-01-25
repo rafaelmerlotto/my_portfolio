@@ -1,0 +1,58 @@
+
+@import 'header';
+@import 'content';
+@import 'about';
+@import 'contact';
+@import 'container';
+@import 'footer';
+@import 'info';
+@import 'view';
+
+
+[data-theme="light-theme"] {
+  --bg-color: #efe5e4;
+  --text-color:  #525559;
+  --link-color: #222831;
+  --title-color: #464b53;
+
+}
+
+[data-theme="dark-theme"] {
+  --bg-color:  #222831;
+  --text-color: #8a8e96;
+  --link-color: #ff5722;
+  --title-color: #ebdada;
+
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.theme-container {
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+
+@media screen and (max-width:768px) {
+  .theme-toggle {
+    width: 40px;
+    height: 25px;
+    padding-top: 0;
+  }
+
+  .theme-container {
+    align-items:flex-start;
+  }
+}
