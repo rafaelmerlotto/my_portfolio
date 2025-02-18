@@ -1,11 +1,12 @@
 import React from 'react'
 import githubImg from '../assets/images/github.png'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import { Github } from 'lucide-react';
 
 
 export default function Container({ container, children }) {
   const { title, description, img, imgLink, link, techUsed, techUsed2, techUsed3, techUsed4, techUsed5 } = container
+
 
 
   return (

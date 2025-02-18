@@ -5,8 +5,25 @@ import imgTasks from '../../assets/images/img/tasks.png'
 import imgWendy from '../../assets/images/img/portfolio_wendy.png'
 import imgCvmotors from '../../assets/images/img/cv_motors.png'
 import imgStockvet from '../../assets/images/img/stockVet.png'
+import imgBatchCrafted from '../../assets/images/img/batchcrafted.png'
 
 export const projectsData = [
+
+    {
+        title: 'SaaS Batch Crafted',
+        description: "BatchCrafted is a SaaS platform designed for homebrewers to efficiently manage their brewing process from start to finish.\n\
+         It provides an intuitive interface to track recipes, log brewing sessions, monitor fermentation progress, and analyze batch performance.",
+        img: imgBatchCrafted,
+        imgLink: "https://batchcrafted.com",
+        link: 'https://batchcrafted.com',
+        techUsed: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+        techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg",
+        techUsed4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+        techUsed5: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+
+
+    },
     {
         title: 'C&V Motors',
         description: "Static website for a dealership designed to provide detailed information on available vehicles, services offered and contact details\n\
@@ -19,7 +36,7 @@ export const projectsData = [
         techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
 
     },
-    {
+/*     {
         title: 'Stock management vet',
         description: "Application for managing the storage of veterinary products, developed using Ruby on Rails and adhering \n\
     to various best practices. PostgreSQL was utilized for the database management.",
@@ -30,7 +47,7 @@ export const projectsData = [
         techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
         techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
 
-    },
+    }, */
 
     {
         title: 'Tracker finance',
@@ -57,22 +74,7 @@ export const projectsData = [
         techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
         techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
     },
-    {
-        title: 'Project Blog',
-        description: "This blog was developed with the intention of empowering users to share their thoughts freely. The homepage features fields for creating posts,\n\
-         including the title and body. Beneath, there is a list of the user's posts for easy management. The Timeline page showcases all posts published by users, \n\
-         offering the opportunity to comment on any post of interest. The My Account section provides profile management options, allowing users to modify personal data, \n\
-         change passwords, and delete accounts if needed.",
-        img: imgBlogMedia,
-        imgLink: "https://i.imgur.com/NIU22IW.png",
-        link: 'https://github.com/rafaelmerlotto/blog-media',
-        techUsed: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-        techUsed2: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-        techUsed3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-        techUsed4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-        techUsed5: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    },
-    {
+  /*   {
         title: 'Generate AI voices',
         description: "In this application, I utilized the OpenAI API to convert text into audio. The backend functions as a mechanism that extracts the voice name and text from the request body.\n\
          The frontend comprises a page where users can select their preferred voice, a text field for inputting the text to be transformed into audio, and an audio playback option for listening.",
@@ -97,7 +99,7 @@ export const projectsData = [
         techUsed4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
         techUsed5: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
 
-    },
+    }, */
 
 
 
