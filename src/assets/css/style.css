@@ -1,4 +1,3 @@
-
 @import 'header';
 @import 'content';
 @import 'about';
@@ -11,19 +10,20 @@
 
 [data-theme="light-theme"] {
   --bg-color: #efe5e4;
-  --text-color:  #525559;
+  --text-color: #525559;
   --link-color: #222831;
   --title-color: #464b53;
 
 }
 
 [data-theme="dark-theme"] {
-  --bg-color:  #222831;
+  --bg-color: #222831;
   --text-color: #8a8e96;
   --link-color: #ff5722;
   --title-color: #ebdada;
 
 }
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -53,6 +53,7 @@ body {
   }
 
   .theme-container {
-    align-items:flex-start;
+    align-items: flex-start;
+    margin-bottom: 6px;
   }
 }

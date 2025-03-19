@@ -4,7 +4,7 @@ import { Link } from "react-router-dom/dist"
 import { ToggleRight, ToggleLeft } from 'lucide-react';
 import { useTheme } from "../context/themeProvider";
 import { CodeXml } from 'lucide-react';
-
+import pdfFile from "../assets/pdf/Rafael_Merlotto__CV.pdf";
 
 
 
@@ -24,7 +24,7 @@ export default function Header() {
             <div className="nav">
                 <Link className="link" to={'/'}>Home</Link>
                 <Link className="link" to={'/portfolio'}>Portfolio</Link>
-                <Link className="link" to={'/cv'}>CV</Link>
+                <a className="link" href={pdfFile} target="_blank">CV</a>
                 <div className="theme-container">
                     {darkMode ?
                         <ToggleRight size={35} onClick={toggleTheme} className="theme-toggle" /> :
