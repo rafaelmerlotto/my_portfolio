@@ -5,6 +5,7 @@ import Cv from "./components/Cv";
 import CvPT from "./components/CvPT";
 import Curriculum from "./pages/Curriculum";
 import "../src/assets/css/style.css"
+import Test from "./pages/Test";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/test" element={<Test />} />
         {/* <Route path="/cv" element={<Curriculum />} /> */}
         {/* <Route path="/cv" element={<Cv />} />
         <Route path="/cvpt" element={<CvPT />} /> */}
