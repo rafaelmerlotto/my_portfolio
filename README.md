@@ -16,9 +16,9 @@ It showcases my **projects, experiments, and skills as a developer**.
 
 ---
 
-##  Live Demo
+##  Live
 
-| Project         | Technologies        | Live Demo |
+| Project         | Technologies        | Live |
 |-----------------|--------------------|----------|
 | Web Portfolio   | React, React Router, Tailwind CSS | [rafaelmerlotto.tech](https://rafaelmerlotto.tech) |
 
@@ -27,7 +27,7 @@ It showcases my **projects, experiments, and skills as a developer**.
 ##  Tech Stack
 
 - **Frontend:** React, React Router, Tailwind CSS
-- **Tool** Docker
+- **Tools:** Docker
 - **Deployment:** Vercel / GitHub Pages  
 
 ---
@@ -46,7 +46,6 @@ It showcases my **projects, experiments, and skills as a developer**.
 4. **For run this app**
    ```bash
    npm start
-
 
 ## Run with Docker
 
