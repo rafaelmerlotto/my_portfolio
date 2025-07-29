@@ -12,7 +12,7 @@ export default function Projects({ projects }) {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
-            <p className="text-gray-400 text-lg">Alcuni dei progetti più significativi su cui ho lavorato</p>
+            <p className="text-gray-400 text-lg">Some of the most significant projects I’ve worked on</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

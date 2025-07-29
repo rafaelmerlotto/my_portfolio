@@ -12,7 +12,7 @@ export default function Skills({ skills }) {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl font-bold mb-4">Technical Skills</h2>
-                        <p className="text-gray-400 text-lg">Tecnologie e strumenti che utilizzo quotidianamente</p>
+                        <p className="text-gray-400 text-lg">Technologies and tools I use every day</p>
                     </div>
 
                     <div className="mb-8 ">

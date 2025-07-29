@@ -1,5 +1,6 @@
 import React from 'react'
 import { Github, Mail, Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 
 export default function Contact() {
@@ -10,24 +11,24 @@ export default function Contact() {
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-4xl font-bold mb-4">Let's Build Something Together</h2>
                     <p className="text-xl text-gray-400 mb-12">
-                        Sempre aperto a nuovi progetti e collaborazioni interessanti
+                        Always open to new projects and exciting collaborations
                     </p>
 
                     <div className="grid md:grid-cols-1 gap-8 mb-12">
                         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
                             <Mail className="text-green-400 mx-auto mb-4" size={32} />
                             <h3 className="font-semibold mb-2">Email</h3>
-                            <p className="text-gray-400">rafaelmerlotto@gmail.com</p>
+                            <p className="text-gray-400"> <a href="mailto:rafaelmerlotto@gmail.com">rafaelmerlotto@gmail.com</a></p>
                         </div>
                         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
                             <Github className="text-green-400 mx-auto mb-4" size={32} />
                             <h3 className="font-semibold mb-2">GitHub</h3>
-                            <p className="text-gray-400">@rafaelmerlotto</p>
+                            <p className="text-gray-400"><Link to={'https://www.github.com/rafaelmerlotto'}>@rafaelmerlotto</Link></p>
                         </div>
                         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
                             <Linkedin className="text-green-400 mx-auto mb-4" size={32} />
                             <h3 className="font-semibold mb-2">LinkedIn</h3>
-                            <p className="text-gray-400">/in/rafael-merlotto</p>
+                            <p className="text-gray-400"> <Link to={'https://www.linkedin.com/in/rafael-merlotto'}>/in/rafael-merlotto</Link></p>
                         </div>
                     </div>
 
