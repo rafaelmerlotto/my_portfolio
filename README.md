@@ -20,7 +20,7 @@ It showcases my **projects, experiments, and skills as a developer**.
 
 | Project         | Technologies        | Live |
 |-----------------|--------------------|----------|
-| Web Portfolio   | React, React Router, Tailwind CSS | [rafaelmerlotto.tech](https://rafaelmerlotto.tech) |
+| My Portfolio   | React, React Router, Tailwind CSS | [rafaelmerlotto.tech](https://rafaelmerlotto.tech) |
 
 ---
 
@@ -58,7 +58,15 @@ It showcases my **projects, experiments, and skills as a developer**.
 3. **Build and start the container**
    ```bash
    docker-compose up --build 
-
-
 *Open your browser at [http://localhost:3000](http://localhost:3000)*
 
+---
+
+## Author
+
+* Rafael Merlotto
+
+--
+
+## License
+My Portfolio App is licensed under ***MIT License***. You are free to modify and distribute the app as per the terms of this license. Please refer to the ```LICENSE.txt``` file for more details.
