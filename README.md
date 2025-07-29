@@ -66,7 +66,7 @@ It showcases my **projects, experiments, and skills as a developer**.
 
 * Rafael Merlotto
 
---
+---
 
 ## License
 My Portfolio App is licensed under ***MIT License***. You are free to modify and distribute the app as per the terms of this license. Please refer to the ```LICENSE.txt``` file for more details.
