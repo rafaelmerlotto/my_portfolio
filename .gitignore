@@ -26,5 +26,6 @@ ContentData.js
 MobileData.js
 
 ./data
+./projects
 
-.env
+.env.

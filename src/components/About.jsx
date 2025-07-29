@@ -60,7 +60,7 @@ export default function About() {
                 </h1>
 
                 <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-                    Full-stack developer con 3+ anni di esperienza in architetture scalabili,
+                    Full-stack developer con esperienza in architetture scalabili,
                     microservizi e tecnologie cloud. Appassionato di clean code e best practices.
                 </p>
 
