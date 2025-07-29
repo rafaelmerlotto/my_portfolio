@@ -1,12 +1,23 @@
 import React, { useState } from 'react'
+import { Terminal } from 'lucide-react';
 
 
 export default function Footer() {
 
   return (
-    <div className={`footer`}>
-        <p>© 2025 Rafael Merlotto</p>
-        {/* <a href="https://icons8.com/">icons8</a> */}
-    </div>
+    <React.Fragment>
+      {/* Footer */}
+      <footer className="py-8 px-6 border-t border-gray-800">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+          <div className="flex items-center space-x-2 mb-4 md:mb-0">
+            <Terminal className="text-green-400" size={16} />
+            <span className="font-mono text-sm">Built with React + Tailwind CSS</span>
+          </div>
+          <div className="text-gray-400 text-sm">
+            © 2025 Rafael Merlotto. Open source on GitHub.
+          </div>
+        </div>
+      </footer>
+    </React.Fragment>
   )
 }

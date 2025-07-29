@@ -1,38 +1,28 @@
 import React, { useState } from "react"
-import logo from '../assets/images/logo-.png'
-import { Link } from "react-router-dom/dist"
-import { ToggleRight, ToggleLeft } from 'lucide-react';
-import { useTheme } from "../context/themeProvider";
-import { CodeXml } from 'lucide-react';
-import pdfFile from "../assets/pdf/Rafael_Merlotto__CV.pdf";
-
-
+import { Terminal } from 'lucide-react';
 
 
 export default function Header() {
 
-
-    const { toggleTheme, darkMode } = useTheme();
-
     return (
-        <div className={`header`}>
-            <div className="logo">
-                <Link className="link-logo" to={"/"}>
-                    <CodeXml size={80} className="img" />
-                </Link>
-            </div>
-            <div className="nav">
-                <Link className="link" to={'/'}>Home</Link>
-                <Link className="link" to={'/portfolio'}>Portfolio</Link>
-                <a className="link" href={pdfFile} target="_blank">CV</a>
-                <div className="theme-container">
-                    {darkMode ?
-                        <ToggleRight size={35} onClick={toggleTheme} className="theme-toggle" /> :
-                        <ToggleLeft size={35} onClick={toggleTheme} className="theme-toggle" />
-                    }
+        <React.Fragment>
+            {/* Header/Navigation */}
+            <header className="fixed top-0 w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
+                <div className="max-w-7xl mx-auto px-6 py-4">
+                    <div className="flex justify-between items-center">
+                        <div className="flex items-center space-x-2">
+                            <Terminal className="text-green-400" size={20} />
+                            <span className="font-mono text-lg">rafaelmerlotto@developer:~$</span>
+                        </div>
+                        <nav className="hidden md:flex space-x-8 font-mono text-xl">
+                            <a href="#home" className="text-gray-300 hover:text-green-400 transition-colors">Home</a>
+                            <a href="#projects" className="text-gray-300 hover:text-green-400 transition-colors">Projects</a>
+                            <a href="#skills" className="text-gray-300 hover:text-green-400 transition-colors">Skills</a>
+                            <a href="#contact" className="text-gray-300 hover:text-green-400 transition-colors">Contact</a>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-
-        </div>
+            </header>
+        </React.Fragment>
     )
 }

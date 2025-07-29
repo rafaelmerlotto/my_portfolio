@@ -1,26 +1,48 @@
 import React from 'react'
-import github from '../assets/images/github.png'
-import linkedin from '../assets/images/linkedin.png'
-import gmail from '../assets/images/gmail.png'
 import { Github, Mail, Linkedin } from 'lucide-react';
 
 
 export default function Contact() {
     return (
-        <div className='contact'>
-            <div className='social-media'>
-                <a href='https://github.com/rafaelmerlotto' target='_blank' >
-                    <Github />
-                </a >
-                <a href='https://www.linkedin.com/in/rafael-merlotto-715266101/' target='_blank' >
-                    <Linkedin />
-                </a>
-                <a href='mailto:rafaelmerlotto@gmail.com' >
-                    <Mail />
-                </a>
-            </div>
+        <React.Fragment >
+            {/* Contact Section */}
+            <section id="contact" className="py-16 px-6 bg-gray-800/50">
+                <div className="max-w-4xl mx-auto text-center">
+                    <h2 className="text-4xl font-bold mb-4">Let's Build Something Together</h2>
+                    <p className="text-xl text-gray-400 mb-12">
+                        Sempre aperto a nuovi progetti e collaborazioni interessanti
+                    </p>
 
-        </div>
+                    <div className="grid md:grid-cols-1 gap-8 mb-12">
+                        <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                            <Mail className="text-green-400 mx-auto mb-4" size={32} />
+                            <h3 className="font-semibold mb-2">Email</h3>
+                            <p className="text-gray-400">rafaelmerlotto@gmail.com</p>
+                        </div>
+                        <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                            <Github className="text-green-400 mx-auto mb-4" size={32} />
+                            <h3 className="font-semibold mb-2">GitHub</h3>
+                            <p className="text-gray-400">@rafaelmerlotto</p>
+                        </div>
+                        <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                            <Linkedin className="text-green-400 mx-auto mb-4" size={32} />
+                            <h3 className="font-semibold mb-2">LinkedIn</h3>
+                            <p className="text-gray-400">/in/rafael-merlotto</p>
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center space-x-4">
+                        <a
+                            href="mailto:rafaelmerlotto@gmail.com"
+                            className="bg-green-500 hover:bg-green-600 text-gray-900 px-8 py-3 rounded-lg font-semibold transition-colors"
+                        >
+                            Send Email
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+        </React.Fragment>
     )
 }
 
