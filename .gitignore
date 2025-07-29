@@ -22,10 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-ContentData.js
-MobileData.js
+data/
 
-./data
-./projects
-
-.env.
+.env*
