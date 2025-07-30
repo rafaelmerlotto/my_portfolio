@@ -14,7 +14,7 @@ export const dataProjects = [
                       It provides an intuitive interface to track recipes, log brewing sessions, monitor fermentation progress, and analyze batch performance.",
         tech: ["Ruby on Rails", "OAuth2", "PostgreSQL", "API RESTful", "Docker", "Stripe"],
         github: "https://github.com/rafaelmerlotto",
-        demo: "https://batchcrafted.com",
+        demo: "https://www.batchcrafted.com",
         image: "https://i.imgur.com/kHp1pCB.png",
         type: "Full Stack"
     },
