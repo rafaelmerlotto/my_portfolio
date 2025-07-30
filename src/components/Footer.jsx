@@ -14,7 +14,7 @@ export default function Footer() {
             <span className="font-mono text-sm">Built with React + Tailwind CSS</span>
           </div>
           <div className="text-gray-400 text-sm">
-            © 2025 Rafael Merlotto. Open source on GitHub.
+            © 2025 Rafael Merlotto. <a href='https://github.com/rafaelmerlotto/my_portfolio'>Open source on GitHub. </a>
           </div>
         </div>
       </footer>
