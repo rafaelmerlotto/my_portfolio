@@ -1,6 +1,6 @@
 export const dataProjects = [
     {
-        title: "SaaS platform",
+        title: "SaaS Platform",
         description: "T-Todoc is a SaaS platform for small professional firms (accountants, lawyers, consultants, etc.) to securely store, organize, and share documents in the cloud. It simplifies deadline tracking and team collaboration.",
         tech: ["React", "Typescript", "TailwindCSS", "Ruby on Rails", "PostgreSQL", "API RESTful"],
         github: "https://github.com/rafaelmerlotto",
@@ -19,7 +19,25 @@ export const dataProjects = [
         type: "Full Stack"
     },
     {
-        title: "Tracker finance",
+        title: "Centralized Ordering and Marketing System",
+        description: "A platform that started as an e- commerce and expanded to manage supply orders and marketing campaigns, enabling centralized purchasing and promotions across all restaurants.",
+        tech: ["Ruby on Rails", "Solidus", "MySQL", "Docker", "Microsoft OAuth", "Nginx on Ubuntu", "Digital Ocean"],
+        github: "https://github.com/rafaelmerlotto",
+        demo: "https://rafaelmerlotto.tech",
+        image: "https://i.imgur.com/Ys9rtBB.png",
+        type: "Full Stack"
+    },
+    {
+        title: "Multi-Tenant Web Application",
+        description: "A large-scale, multi-tenant web application designed to handle multiple clients with separate data and user bases. The app manages [briefly describe features, e.g., “documents, team collaboration, and real-time notifications”].",
+        tech: ["Ruby on Rails", "Redis", "Elasticsearch", "Docker", "MySQL", "AI agents"],
+        github: "https://github.com/rafaelmerlotto",
+        demo: "https://rafaelmerlotto.tech",
+        image: "https://i.imgur.com/D7cByog.png",
+        type: "Full Stack"
+    },
+    {
+        title: "Tracker Finance",
         description: "This application was developed with the aim of personal finance management. It gives the user the ability to save or delete income,\n\
                      expenses, and savings with real-time updates. Additionally, there is a functionality that allows the user to switch between five different currencies.",
         tech: ["React", "TailwindCSS", "Node.js", "Express.js", "Typescript", "MongoDB", "Docker"],
