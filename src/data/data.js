@@ -37,14 +37,13 @@ export const dataProjects = [
         type: "Full Stack"
     },
     {
-        title: "Tracker Finance",
-        description: "This application was developed with the aim of personal finance management. It gives the user the ability to save or delete income,\n\
-                     expenses, and savings with real-time updates. Additionally, there is a functionality that allows the user to switch between five different currencies.",
-        tech: ["React", "TailwindCSS", "Node.js", "Express.js", "Typescript", "MongoDB", "Docker"],
-        github: "https://github.com/rafaelmerlotto/tracker-finance",
-        demo: "https://tracker-finance.vercel.app",
-        image: "https://i.imgur.com/RBtHDLN.png",
-        type: "Full Stack"
+        title: "AI Telegram & WhatsApp Bot with Ollama",
+        description: "This project creates a smart chatbot for Telegram and WhatsApp. Users chat with it like a friend, while Ollama AI provides natural and helpful replies in the background.",
+        tech: ["Node.js", "Typescript", "axios", "TelegramBot", "WhatsappBot", "Ollama"],
+        github: "https://github.com/rafaelmerlotto/bot-pack",
+        demo: "https://rafaelmerlotto.tech",
+        image: "https://i.imgur.com/PBTxMuw.png",
+        type: "Backend"
     },
     {
         title: "Slack Automation Bot",
