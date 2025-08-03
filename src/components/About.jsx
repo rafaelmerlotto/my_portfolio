@@ -4,28 +4,32 @@ import { Coffee, GitBranch } from 'lucide-react';
 
 export default function About() {
 
-    const [isTyping, setIsTyping] = useState(true);
 
-    // const fullText = "const developer = new SoftwareDeveloper('Rafael Merlotto');";
+    const fullText = "const developer = new SoftwareDeveloper('Rafael Merlotto');";
     const fullElements = [
-        <span className="text-cyan-400">const </span>,
-        <span className="text-gray-200">developer </span>,
-        <span className="text-stone-500">= new </span>,
-        <span className="text-orange-400">SoftwareDeveloper</span>,
-        <span className="text-green-400">("Rafael Merlotto")</span>,
+        <span className="text-cyan-400 text-sm">const </span>,
+        <span className="text-gray-200 text-sm">developer </span>,
+        <span className="text-stone-500 text-sm">= new </span>,
+        <span className="text-orange-400 text-sm">SoftwareDeveloper</span>,
+        <span className="text-green-400 text-sm">('Rafael Merlotto')</span>,
     ];
 
 
+    const [isTyping, setIsTyping] = useState(true);
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [color, setColor] = useState(false);
 
     useEffect(() => {
-        if (isTyping && currentIndex < fullElements.length) {
+        if (isTyping && currentIndex < fullText.length) {
             const timeout = setTimeout(() => {
                 setCurrentIndex((prev) => prev + 1);
-            }, 300);
+                console.log(currentIndex)
+            }, 100);
+
             return () => clearTimeout(timeout);
-        } else if (currentIndex === fullElements.length) {
+        } else if (currentIndex === fullText.length) {
             setIsTyping(false);
+            setColor(true)
         }
     }, [currentIndex, isTyping]);
 
@@ -48,7 +52,7 @@ export default function About() {
                         <div className="text-gray-300 mb-4">Rafael Merlotto - Software Developer</div>
                         <div className="text-green-400 mb-2">$ cat about.js</div>
                         <div className="text-gray-300 mb-4">
-                            {Array.from(fullElements).slice(0, currentIndex)}
+                            {Array.from(color ? fullElements : fullText).slice(0, currentIndex)}
                             {isTyping && <span className="animate-pulse">|</span>}
                         </div>
                     </div>
