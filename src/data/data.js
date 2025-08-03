@@ -36,15 +36,15 @@ export const dataProjects = [
         image: "https://i.imgur.com/D7cByog.png",
         type: "Full Stack"
     },
-    // {
-    //     title: "AI Telegram & WhatsApp Bot with Ollama",
-    //     description: "This project creates a smart chatbot for Telegram and WhatsApp. Users chat with it like a friend, while Ollama AI provides natural and helpful replies in the background.",
-    //     tech: ["Node.js", "Typescript", "axios", "TelegramBot", "WhatsappBot", "Ollama"],
-    //     github: "https://github.com/rafaelmerlotto/bot-pack",
-    //     demo: "https://rafaelmerlotto.tech",
-    //     image: "https://i.imgur.com/PBTxMuw.png",
-    //     type: "Backend"
-    // },
+    {
+        title: "AI Telegram & WhatsApp Bot with Ollama",
+        description: "This project creates a smart chatbot for Telegram and WhatsApp. Users chat with it like a friend, while Ollama AI provides natural and helpful replies in the background.",
+        tech: ["Node.js", "Typescript", "axios", "TelegramBot", "WhatsappBot", "Ollama"],
+        github: "https://github.com/rafaelmerlotto/bot-pack",
+        demo: "https://rafaelmerlotto.tech",
+        image: "https://i.imgur.com/PBTxMuw.png",
+        type: "Backend"
+    },
     // {
     //     title: "Slack Automation Bot",
     //     description: "A Slack bot that automates sending messages to users, channels, and groups. It retrieves events from Google Calendar using the Google API and sends customized notifications for the current day's events.",
