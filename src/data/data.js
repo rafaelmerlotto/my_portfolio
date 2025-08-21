@@ -45,6 +45,15 @@ export const dataProjects = [
         image: "https://i.imgur.com/PBTxMuw.png",
         type: "Backend"
     },
+    {
+        title: "Euro to Lira Converter Gem",
+        description: "A Ruby gem that converts between Euro and Italian Lira using the fixed official rate (1 EUR = 1936.27 ITL). Includes validation, tests with RSpec, and easy integration into Rails apps.",
+        tech: ["Ruby", "RSpec", "Bundler", "Rails"],
+        github: "https://github.com/rafaelmerlotto/euro_to_lira",
+        demo: "https://rubygems.org/gems/euro_to_lira",
+        image: "https://i.imgur.com/crf7LRD.png",
+        type: "Library"
+    }
     // {
     //     title: "Slack Automation Bot",
     //     description: "A Slack bot that automates sending messages to users, channels, and groups. It retrieves events from Google Calendar using the Google API and sends customized notifications for the current day's events.",
