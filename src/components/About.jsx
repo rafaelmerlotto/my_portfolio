@@ -23,7 +23,6 @@ export default function About() {
         if (isTyping && currentIndex < fullText.length) {
             const timeout = setTimeout(() => {
                 setCurrentIndex((prev) => prev + 1);
-                console.log(currentIndex)
             }, 100);
 
             return () => clearTimeout(timeout);
