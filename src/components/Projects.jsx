@@ -6,15 +6,20 @@ import Modal from './Modal';
 export default function Projects({ projects }) {
 
   const [openModal, setOpenModal] = useState(false)
-  const [getIndex, setGetIndex] = useState()
+  const [selectedIndex, setSelectedIndex] = useState()
+  const [closeModal, setCloseModal] = useState()
 
   const handleClick = (idx) => {
     console.log(idx)
     setOpenModal(true)
-    setGetIndex(idx)
+    setSelectedIndex(idx)
   }
 
-  console.log(openModal)
+  const handleCloseModal = () => {
+    setCloseModal(true)
+    setSelectedIndex(null);
+  }
+
 
   return (
     <React.Fragment>
@@ -73,7 +78,7 @@ export default function Projects({ projects }) {
           </div>
         </div>
       </section>
-      {openModal && <Modal projects={projects} index={getIndex} />}
+      {openModal && <Modal projects={projects} index={selectedIndex} onClose={handleCloseModal} />}
     </React.Fragment>
   )
 }
