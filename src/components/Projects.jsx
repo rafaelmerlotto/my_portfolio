@@ -1,9 +1,20 @@
 import React, { useState } from 'react'
 import { Github, ExternalLink } from 'lucide-react';
+import Modal from './Modal';
 
 
 export default function Projects({ projects }) {
 
+  const [openModal, setOpenModal] = useState(false)
+  const [getIndex, setGetIndex] = useState()
+
+  const handleClick = (idx) => {
+    console.log(idx)
+    setOpenModal(true)
+    setGetIndex(idx)
+  }
+
+  console.log(openModal)
 
   return (
     <React.Fragment>
@@ -17,7 +28,7 @@ export default function Projects({ projects }) {
 
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-green-400/50 transition-all group">
+              <div key={index} onClick={() => handleClick(index)} className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-green-400/50 transition-all group">
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={project.image}
@@ -62,6 +73,7 @@ export default function Projects({ projects }) {
           </div>
         </div>
       </section>
+      {openModal && <Modal projects={projects} index={getIndex} />}
     </React.Fragment>
   )
 }
