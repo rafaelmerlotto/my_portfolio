@@ -29,7 +29,7 @@ export const dataProjects = [
     },
     {
         title: "Multi-Tenant Web Application",
-        description: "A large-scale, multi-tenant web application designed to handle multiple clients with separate data and user bases. The app manages [briefly describe features, e.g., “documents, team collaboration, and real-time notifications”].",
+        description: "A large-scale, multi-tenant web application designed to handle multiple clients with separate data and user bases. The app manages documents, team collaboration, and real-time notifications.",
         tech: ["Ruby on Rails", "Redis", "Elasticsearch", "Docker", "MySQL", "AI agents"],
         github: "https://github.com/rafaelmerlotto",
         demo: "https://rafaelmerlotto.tech",
