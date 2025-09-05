@@ -14,7 +14,7 @@ export default function Modal({ projects, index, onClose }) {
                         <img
                             src={selectedProject.image}
                             alt={selectedProject.title}
-                            className="w-full h-96 object-cover"
+                            className="w-full h-96 object-cover max-md:h-auto"
                         />
                         <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/70 to-transparent"></div>
                         <button
@@ -36,7 +36,7 @@ export default function Modal({ projects, index, onClose }) {
                         <div className="flex justify-between items-start mb-3">
                             <h3 className="text-xl font-bold">{selectedProject.title}</h3>
                         </div>
-                        <p className="text-gray-400 mb-4">{selectedProject.description}</p>
+                        <p className="text-gray-400 mb-4 max-md:text-lg">{selectedProject.description}</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {selectedProject.tech.map((tech) => (
                                 <span key={tech} className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">
