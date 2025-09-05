@@ -21,7 +21,7 @@ export default function Modal({ projects, index, onClose }) {
                             onClick={onClose}
                             className="absolute top-4 right-4 p-2 bg-white/90 rounded-full hover:bg-white transition-colors"
                         >
-                            <X size={24} />
+                            <X size={24} color='black' />
                         </button>
                         <div className="absolute bottom-4 left-4 right-4 z-10">
                             <h3 className="text-2xl font-bold text-white mb-2">{selectedProject.title}</h3>
