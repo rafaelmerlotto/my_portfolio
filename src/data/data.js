@@ -19,13 +19,13 @@ export const dataProjects = [
         type: "Full Stack"
     },
     {
-        title: "Centralized Ordering and Marketing System",
-        description: "A platform that started as an e- commerce and expanded to manage supply orders and marketing campaigns, enabling centralized purchasing and promotions across all restaurants.",
-        tech: ["Ruby on Rails", "Solidus", "MySQL", "Docker", "Microsoft OAuth", "Nginx on Ubuntu", "Digital Ocean"],
-        github: "https://github.com/rafaelmerlotto",
-        demo: "https://rafaelmerlotto.tech",
-        image: "https://i.imgur.com/Ys9rtBB.png",
-        type: "Full Stack"
+        title: "Alpaca chat",
+        description: "This is a lightweight chat application powered by Ollama AI, designed to run entirely on your local environment. It allows developers to interact with AI models through a simple chat interface without relying on external APIs or cloud services.",
+        tech: ["React", "Typescript", "Tailwindcss", "Ollama", "Fetch API"],
+        github: "https://github.com/rafaelmerlotto/alpaca-chat",
+        demo: "https://alpaca-chat-hp1e.vercel.app",
+        image: "https://i.imgur.com/R9nZ8sx.png",
+        type: "Frontend"
     },
     {
         title: "Multi-Tenant Web Application",
@@ -55,15 +55,14 @@ export const dataProjects = [
         type: "Library"
     },
     {
-        title: "Alpaca chat",
-        description: "This is a lightweight chat application powered by Ollama AI, designed to run entirely on your local environment. It allows developers to interact with AI models through a simple chat interface without relying on external APIs or cloud services.",
-        tech: ["React", "Ollama", "Google Calendar API", "Express", "Docker"],
-        github: "https://github.com/rafaelmerlotto/alpaca-chat",
+        title: "Centralized Ordering and Marketing System",
+        description: "A platform that started as an e- commerce and expanded to manage supply orders and marketing campaigns, enabling centralized purchasing and promotions across all restaurants.",
+        tech: ["Ruby on Rails", "Solidus", "MySQL", "Docker", "Microsoft OAuth", "Nginx on Ubuntu", "Digital Ocean"],
+        github: "https://github.com/rafaelmerlotto",
         demo: "https://rafaelmerlotto.tech",
-        image: "https://i.imgur.com/R9nZ8sx.png",
-        type: "Frontend"
-    }
-
+        image: "https://i.imgur.com/Ys9rtBB.png",
+        type: "Full Stack"
+    },
 ];
 
 export const skills = {
