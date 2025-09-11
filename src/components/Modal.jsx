@@ -14,7 +14,7 @@ export default function Modal({ projects, index, onClose }) {
                         <img
                             src={selectedProject.image}
                             alt={selectedProject.title}
-                            className="w-full h-96 object-cover max-md:h-auto"
+                            className="w-full h-[28rem] object-cover max-md:h-auto"
                         />
                         <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/70 to-transparent"></div>
                         <button

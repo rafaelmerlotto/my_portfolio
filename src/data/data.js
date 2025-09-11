@@ -53,16 +53,16 @@ export const dataProjects = [
         demo: "https://rubygems.org/gems/euro_to_lira",
         image: "https://i.imgur.com/crf7LRD.png",
         type: "Library"
+    },
+    {
+        title: "Alpaca chat",
+        description: "This is a lightweight chat application powered by Ollama AI, designed to run entirely on your local environment. It allows developers to interact with AI models through a simple chat interface without relying on external APIs or cloud services.",
+        tech: ["React", "Ollama", "Google Calendar API", "Express", "Docker"],
+        github: "https://github.com/rafaelmerlotto/alpaca-chat",
+        demo: "https://rafaelmerlotto.tech",
+        image: "https://i.imgur.com/R9nZ8sx.png",
+        type: "Frontend"
     }
-    // {
-    //     title: "Slack Automation Bot",
-    //     description: "A Slack bot that automates sending messages to users, channels, and groups. It retrieves events from Google Calendar using the Google API and sends customized notifications for the current day's events.",
-    //     tech: ["Node.js", "SlackBots", "Google Calendar API", "Express", "Docker"],
-    //     github: "https://github.com/rafaelmerlotto/automation_bot_slack",
-    //     demo: "https://rafaelmerlotto.tech",
-    //     image: "https://i.imgur.com/DMOu69y.jpeg",
-    //     type: "Backend"
-    // }
 
 ];
 
