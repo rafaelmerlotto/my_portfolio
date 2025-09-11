@@ -24,7 +24,7 @@ export const dataProjects = [
         tech: ["React", "Typescript", "Tailwindcss", "Ollama", "Fetch API"],
         github: "https://github.com/rafaelmerlotto/alpaca-chat",
         demo: "https://alpaca-chat-hp1e.vercel.app",
-        image: "https://i.imgur.com/R9nZ8sx.png",
+        image: "https://i.imgur.com/P2hE7Ug.png",
         type: "Frontend"
     },
     {
