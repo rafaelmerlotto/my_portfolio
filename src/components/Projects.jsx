@@ -10,7 +10,6 @@ export default function Projects({ projects }) {
   const [closeModal, setCloseModal] = useState()
 
   const handleClick = (idx) => {
-    console.log(idx)
     setOpenModal(true)
     setSelectedIndex(idx)
   }
@@ -33,8 +32,8 @@ export default function Projects({ projects }) {
 
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <div key={index} onClick={() => handleClick(index)} className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-green-400/50 transition-all group">
-                <div className="aspect-video overflow-hidden">
+              <div key={index} className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-green-400/50 transition-all group">
+                <div onClick={() => handleClick(index)} className="aspect-video overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
