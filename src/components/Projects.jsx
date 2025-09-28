@@ -8,6 +8,8 @@ export default function Projects({ projects }) {
   const [openModal, setOpenModal] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState()
   const [closeModal, setCloseModal] = useState()
+  const [viewAllProjects, setViewAllProjects] = useState(true)
+  const [viewProjects, setViewProjects] = useState([0, 1, 2, 3])
 
   const handleClick = (idx) => {
     setOpenModal(true)
@@ -19,7 +21,11 @@ export default function Projects({ projects }) {
     setSelectedIndex(null);
   }
 
-
+  const handleSeeProjects = () => {
+    setViewProjects(prev => [...prev, 4, 5, 6])
+    setViewAllProjects(false)
+  }
+  console.log(viewProjects)
   return (
     <React.Fragment>
       {/* Projects Section */}
@@ -31,7 +37,7 @@ export default function Projects({ projects }) {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {projects.map((project, index) => (
+            {projects.filter((_, index) => viewProjects.includes(index)).map((project, index) => (
               <div key={index} className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-green-400/50 transition-all group">
                 <div onClick={() => handleClick(index)} className="aspect-video overflow-hidden">
                   <img
@@ -75,6 +81,7 @@ export default function Projects({ projects }) {
               </div>
             ))}
           </div>
+          {viewAllProjects && <button onClick={handleSeeProjects} className="bg-green-500 mt-10 hover:bg-green-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors max-md:text-lg">See all projects</button>}
         </div>
       </section>
       {openModal && <Modal projects={projects} index={selectedIndex} onClose={handleCloseModal} />}
