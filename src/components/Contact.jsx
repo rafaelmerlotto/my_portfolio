@@ -1,7 +1,7 @@
 import React from 'react'
 import { Github, Mail, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import cv from '../assets/files/Rafael_Merlotto_CV.pdf'
 
 export default function Contact() {
     return (
@@ -39,7 +39,7 @@ export default function Contact() {
                         >
                             Send Email
                         </a>
-
+                        <a href={cv} target="_blank" className=" bg-gray-900 border-gray-600 border px-8 py-3 rounded-lg font-semibold transition-colors" >Download CV</a>
                     </div>
                 </div>
             </section>
