@@ -77,7 +77,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 max-md:text-lg">
                     <a
                         href="#projects"
                         className="bg-green-500 hover:bg-green-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors"
