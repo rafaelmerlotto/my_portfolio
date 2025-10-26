@@ -25,7 +25,7 @@ export default function Projects({ projects }) {
     setViewProjects(prev => [...prev, 4, 5, 6])
     setViewAllProjects(false)
   }
-  console.log(viewProjects)
+
   return (
     <React.Fragment>
       {/* Projects Section */}
