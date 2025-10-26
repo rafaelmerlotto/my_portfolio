@@ -69,7 +69,7 @@ export const skills = {
     languages: [
         { name: "JavaScript", level: 100, years: 3 },
         { name: "TypeScript", level: 100, years: 3 },
-        { name: "Ruby", level: 100, years: 1 },
+        { name: "Ruby", level: 100, years: 2 },
     ],
     frontend: [
         { name: "React", level: 100 },
