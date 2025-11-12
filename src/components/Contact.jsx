@@ -39,7 +39,7 @@ export default function Contact() {
                         >
                             Send Email
                         </a>
-                        <a href={cv} target="_blank" className=" bg-gray-900 border-gray-600 border px-8 py-3 rounded-lg font-semibold transition-colors" >Download CV</a>
+                        <a href={cv} target="_blank" rel="noreferrer" className=" bg-gray-900 border-gray-600 border px-8 py-3 rounded-lg font-semibold transition-colors" >Download CV</a>
                     </div>
                 </div>
             </section>
