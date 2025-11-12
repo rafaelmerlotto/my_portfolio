@@ -10,8 +10,7 @@ export const dataProjects = [
     },
     {
         title: "BatchCrafted SaaS",
-        description: "BatchCrafted is a SaaS platform designed for homebrewers to efficiently manage their brewing process from start to finish.\n\
-                      It provides an intuitive interface to track recipes, log brewing sessions, monitor fermentation progress, and analyze batch performance.",
+        description: "BatchCrafted is a SaaS platform designed for homebrewers to efficiently manage their brewing process from start to finish. It provides an intuitive interface to track recipes, log brewing sessions, monitor fermentation progress, and analyze batch performance.",
         tech: ["Ruby on Rails", "OAuth2", "PostgreSQL", "API RESTful", "Docker", "Stripe"],
         github: "https://github.com/rafaelmerlotto",
         demo: "https://www.batchcrafted.com",

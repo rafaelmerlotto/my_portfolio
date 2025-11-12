@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 export default function Skills({ skills }) {
 
     const [activeTab, setActiveTab] = useState('projects');
-    const [typedText, setTypedText] = useState('');
 
     return (
         <React.Fragment>
