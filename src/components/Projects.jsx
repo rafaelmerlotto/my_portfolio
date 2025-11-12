@@ -7,7 +7,7 @@ export default function Projects({ projects }) {
 
   const [openModal, setOpenModal] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState()
-  const [closeModal, setCloseModal] = useState()
+  const [, setCloseModal] = useState()
   const [viewAllProjects, setViewAllProjects] = useState(true)
   const [viewProjects, setViewProjects] = useState([0, 1, 2, 3])
 
