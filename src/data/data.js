@@ -28,14 +28,15 @@ export const dataProjects = [
         type: "Frontend"
     },
     {
-        title: "Multi-Tenant Web Application",
-        description: "A large-scale, multi-tenant web application designed to handle multiple clients with separate data and user bases. The app manages documents, team collaboration, and real-time notifications.",
-        tech: ["Ruby on Rails", "Redis", "Elasticsearch", "Docker", "MySQL", "AI agents"],
-        github: "https://github.com/rafaelmerlotto",
-        demo: "https://rafaelmerlotto.tech",
-        image: "https://i.imgur.com/D7cByog.png",
-        type: "Full Stack"
+        title: "Ollama DSL",
+        description: "A Ruby DSL for interacting with Ollama LLMs, allowing streaming and structured prompts. Ollama DSL provides an easy-to-use Ruby interface to communicate with Ollama local or remote language models. It supports building prompts with system/user roles, handling streaming responses, and chaining prompts seamlessly.",
+        tech: ["Ruby", "Ollama", "Bundler", "Rspec"],
+        github: "https://github.com/rafaelmerlotto/ollama-dsl",
+        demo: "https://rubygems.org/gems/ollama-dsl",
+        image: "https://i.imgur.com/RQZjAI6.png",
+        type: "Library"
     },
+
     {
         title: "AI Telegram & WhatsApp Bot with Ollama",
         description: "This project creates a smart chatbot for Telegram and WhatsApp. Users chat with it like a friend, while Ollama AI provides natural and helpful replies in the background.",
@@ -55,12 +56,12 @@ export const dataProjects = [
         type: "Library"
     },
     {
-        title: "Centralized Ordering and Marketing System",
-        description: "A platform that started as an e- commerce and expanded to manage supply orders and marketing campaigns, enabling centralized purchasing and promotions across all restaurants.",
-        tech: ["Ruby on Rails", "Solidus", "MySQL", "Docker", "Microsoft OAuth", "Nginx on Ubuntu", "Digital Ocean"],
+        title: "Multi-Tenant Web Application",
+        description: "A large-scale, multi-tenant web application designed to handle multiple clients with separate data and user bases. The app manages documents, team collaboration, and real-time notifications.",
+        tech: ["Ruby on Rails", "Redis", "Elasticsearch", "Docker", "MySQL", "AI agents"],
         github: "https://github.com/rafaelmerlotto",
         demo: "https://rafaelmerlotto.tech",
-        image: "https://i.imgur.com/Ys9rtBB.png",
+        image: "https://i.imgur.com/D7cByog.png",
         type: "Full Stack"
     },
 ];
