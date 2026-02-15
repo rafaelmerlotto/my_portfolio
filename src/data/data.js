@@ -14,7 +14,7 @@ export const dataProjects = [
         tech: ["Ruby on Rails", "OAuth2", "PostgreSQL", "API RESTful", "Docker", "Stripe"],
         github: "https://github.com/rafaelmerlotto",
         demo: "https://www.batchcrafted.com",
-        image: "https://i.imgur.com/PwMFgIx.png",
+        image: "https://i.imgur.com/Q0diYJ1.png",
         type: "Full Stack"
     },
     {
