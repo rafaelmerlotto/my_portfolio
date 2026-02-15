@@ -4,6 +4,8 @@ import { Terminal } from 'lucide-react';
 
 export default function Footer() {
 
+  const currentYear = new Date()
+
   return (
     <React.Fragment>
       {/* Footer */}
@@ -14,7 +16,7 @@ export default function Footer() {
             <span className="font-mono text-sm">Built with React + Tailwind CSS</span>
           </div>
           <div className="text-gray-400 text-sm">
-            © 2025 Rafael Merlotto. <a href='https://github.com/rafaelmerlotto/my_portfolio'>Open source on GitHub. </a>
+            © {currentYear.getFullYear()} Rafael Merlotto. <a href='https://github.com/rafaelmerlotto/my_portfolio'>Open source on GitHub. </a>
           </div>
         </div>
       </footer>
