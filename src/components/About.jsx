@@ -63,7 +63,7 @@ export default function About() {
                 </h1>
 
                 <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-                    Full-stack developer with experience in scalable architectures, microservices, and cloud technologies. Passionate about clean code and best practices.
+                    Software developer with experience in scalable architectures, microservices, and cloud technologies. Passionate about clean code and best practices.
                 </p>
 
                 <div className="flex flex-wrap gap-4 mb-8">
