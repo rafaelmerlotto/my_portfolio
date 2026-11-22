@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Github, ExternalLink } from 'lucide-react';
 import Modal from './Modal';
+import StackIcon from 'tech-stack-icons';
 
 
 export default function Projects({ projects }) {
@@ -55,8 +56,9 @@ export default function Projects({ projects }) {
                   </div>
                   <p className="text-gray-400 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tech.map((tech) => (
-                      <span key={tech} className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">
+                    {project.tech.map(({ tech, icon }) => (
+                      <span key={tech} className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded flex items-center gap-2">
+                        <StackIcon name={icon} className='w-4' />
                         {tech}
                       </span>
                     ))}
