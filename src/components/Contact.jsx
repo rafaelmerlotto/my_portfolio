@@ -33,12 +33,6 @@ export default function Contact() {
                     </div>
 
                     <div className="flex justify-center space-x-4 max-md:text-lg">
-                        <a
-                            href="mailto:rafaelmerlotto@gmail.com"
-                            className="bg-green-500 hover:bg-green-600 text-gray-900 px-8 py-3 rounded-lg font-semibold transition-colors"
-                        >
-                            Send Email
-                        </a>
                         <a href={cv} target="_blank" rel="noreferrer" className=" bg-gray-900 border-gray-600 border px-8 py-3 rounded-lg font-semibold transition-colors" >Download CV</a>
                     </div>
                 </div>
