@@ -8,13 +8,13 @@ export default function Contact() {
         <React.Fragment >
             {/* Contact Section */}
             <section id="contact" className="py-16 px-6 bg-gray-800/50">
-                <div className="max-w-4xl mx-auto text-center">
+                <div className="max-w-6xl mx-auto text-center">
                     <h2 className="text-4xl font-bold mb-4">Let's Build Something Together</h2>
                     <p className="text-xl text-gray-400 mb-12">
                         Always open to new projects and exciting collaborations
                     </p>
 
-                    <div className="grid md:grid-cols-1 gap-8 mb-12">
+                    <div className="grid md:grid-cols-3 gap-8 mb-12">
                         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
                             <Mail className="text-green-400 mx-auto mb-4" size={32} />
                             <h3 className="font-semibold mb-2">Email</h3>
