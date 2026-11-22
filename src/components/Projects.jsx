@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Github, ExternalLink } from 'lucide-react';
 import Modal from './Modal';
 import StackIcon from 'tech-stack-icons';
-
+import { projectTypeColor } from '../data/data'
 
 export default function Projects({ projects }) {
 
@@ -27,6 +27,8 @@ export default function Projects({ projects }) {
     setViewAllProjects(false)
   }
 
+  console.log(projectTypeColor)
+
   return (
     <React.Fragment>
       {/* Projects Section */}
@@ -50,7 +52,7 @@ export default function Projects({ projects }) {
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-3">
                     <h3 className="text-xl font-bold">{project.title}</h3>
-                    <span className="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded">
+                    <span className={`px-3 py-1 bg-gradient-to-r ${projectTypeColor[project.type]} text-white text-sm font-medium rounded-full`}>
                       {project.type}
                     </span>
                   </div>

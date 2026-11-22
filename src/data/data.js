@@ -88,3 +88,10 @@ export const skills = {
 
     ]
 };
+
+export const projectTypeColor = {
+    "Full Stack": "from-cyan-700 to-cyan-800",
+    "Backend": "from-orange-700 to-orange-800",
+    "Frontend": "from-sky-700 to-sky-800",
+    "Library": "from-amber-700 to-amber-800",
+};

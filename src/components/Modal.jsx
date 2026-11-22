@@ -1,6 +1,7 @@
 import React from 'react'
 import { X, ExternalLink, Github } from "lucide-react"
 import StackIcon from 'tech-stack-icons';
+import { projectTypeColor } from '../data/data'
 
 export default function Modal({ projects, index, onClose }) {
     const selectedProject = projects[index];
@@ -26,7 +27,7 @@ export default function Modal({ projects, index, onClose }) {
                         </button>
                         <div className="absolute bottom-4 left-4 right-4 z-10">
                             <h3 className="text-2xl font-bold text-white mb-2">{selectedProject.title}</h3>
-                            <span className="px-3 py-1 bg-gradient-to-r from-cyan-500 to-green-500 text-white text-sm font-medium rounded-full">
+                            <span className={`px-3 py-1 bg-gradient-to-r ${projectTypeColor[selectedProject.type]} text-white text-sm font-medium rounded-full`}>
                                 {selectedProject.type}
                             </span>
                         </div>
