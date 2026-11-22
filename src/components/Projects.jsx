@@ -50,9 +50,9 @@ export default function Projects({ projects }) {
                   />
                 </div>
                 <div className="p-6">
-                  <div className="flex justify-between items-start mb-3">
+                  <div className="flex justify-between items-start mb-3 gap-2">
                     <h3 className="text-xl font-bold">{project.title}</h3>
-                    <span className={`px-3 py-1 bg-gradient-to-r ${projectTypeColor[project.type]} text-white text-sm font-medium rounded-full`}>
+                    <span className={`px-3 py-1 bg-gradient-to-r ${projectTypeColor[project.type]} text-white text-sm font-medium rounded-full whitespace-nowrap`}>
                       {project.type}
                     </span>
                   </div>
