@@ -1,11 +1,11 @@
 export const dataProjects = [
     {
-        title: "SaaS Platform",
-        description: "T-Todoc is a SaaS platform for small professional firms (accountants, lawyers, consultants, etc.) to securely store, organize, and share documents in the cloud. It simplifies deadline tracking and team collaboration.",
-        tech: ["React", "Typescript", "TailwindCSS", "Ruby on Rails", "PostgreSQL", "API RESTful"],
-        github: "https://github.com/rafaelmerlotto",
-        demo: "https://t-todoc.it",
-        image: "https://i.imgur.com/UNZl5tT.png",
+        title: "TaxPri — Cross-Border Tax Assistant",
+        description: "TaxPri is an open-source, rule-based consultation platform for people who live and work across European borders.",
+        tech: ["React", "TailwindCSS", "Typescript", "Node.js", "PostgreSQL", "Express", "Zod", "Prisma", "API RESTful"],
+        github: "https://github.com/rafaelmerlotto/Cross-Border-Tax-Assistant",
+        demo: "https://taxpri.vercel.app",
+        image: "https://i.imgur.com/HW6HrQA.png",
         type: "Full Stack"
     },
     {
@@ -18,15 +18,6 @@ export const dataProjects = [
         type: "Full Stack"
     },
     {
-        title: "Alpaca chat",
-        description: "This is a lightweight chat application powered by Ollama AI, designed to run entirely on your local environment. It allows developers to interact with AI models through a simple chat interface without relying on external APIs or cloud services.",
-        tech: ["React", "Typescript", "Tailwindcss", "Ollama", "Fetch API"],
-        github: "https://github.com/rafaelmerlotto/alpaca-chat",
-        demo: "https://alpaca-chat-hp1e.vercel.app",
-        image: "https://i.imgur.com/P2hE7Ug.png",
-        type: "Frontend"
-    },
-    {
         title: "Ollama DSL",
         description: "A Ruby DSL for interacting with Ollama LLMs, allowing streaming and structured prompts. Ollama DSL provides an easy-to-use Ruby interface to communicate with Ollama local or remote language models. It supports building prompts with system/user roles, handling streaming responses, and chaining prompts seamlessly.",
         tech: ["Ruby", "Ollama", "Bundler", "Rspec"],
@@ -34,16 +25,6 @@ export const dataProjects = [
         demo: "https://rubygems.org/gems/ollama-dsl",
         image: "https://i.imgur.com/RQZjAI6.png",
         type: "Library"
-    },
-
-    {
-        title: "AI Telegram & WhatsApp Bot with Ollama",
-        description: "This project creates a smart chatbot for Telegram and WhatsApp. Users chat with it like a friend, while Ollama AI provides natural and helpful replies in the background.",
-        tech: ["Node.js", "Typescript", "axios", "TelegramBot", "WhatsappBot", "Ollama"],
-        github: "https://github.com/rafaelmerlotto/bot-pack",
-        demo: "https://rafaelmerlotto.tech",
-        image: "https://i.imgur.com/PBTxMuw.png",
-        type: "Backend"
     },
     {
         title: "Euro to Lira Converter Gem",
@@ -53,15 +34,6 @@ export const dataProjects = [
         demo: "https://rubygems.org/gems/euro_to_lira",
         image: "https://i.imgur.com/crf7LRD.png",
         type: "Library"
-    },
-    {
-        title: "Multi-Tenant Web Application",
-        description: "A large-scale, multi-tenant web application designed to handle multiple clients with separate data and user bases. The app manages documents, team collaboration, and real-time notifications.",
-        tech: ["Ruby on Rails", "Redis", "Elasticsearch", "Docker", "MySQL", "AI agents"],
-        github: "https://github.com/rafaelmerlotto",
-        demo: "https://rafaelmerlotto.tech",
-        image: "https://i.imgur.com/D7cByog.png",
-        type: "Full Stack"
     },
 ];
 
