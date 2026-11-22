@@ -67,6 +67,7 @@ export default function Projects({ projects }) {
                     <a
                       href={project.github}
                       target='_blank'
+                      rel="noreferrer"
                       className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
                     >
                       <Github size={16} />
@@ -75,6 +76,7 @@ export default function Projects({ projects }) {
                     <a
                       href={project.demo}
                       target='_blank'
+                      rel="noreferrer"
                       className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
                     >
                       <ExternalLink size={16} />
