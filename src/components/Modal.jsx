@@ -1,5 +1,6 @@
 import React from 'react'
 import { X, ExternalLink, Github } from "lucide-react"
+import StackIcon from 'tech-stack-icons';
 
 export default function Modal({ projects, index, onClose }) {
     const selectedProject = projects[index];
@@ -38,8 +39,9 @@ export default function Modal({ projects, index, onClose }) {
                         </div>
                         <p className="text-gray-400 mb-4 max-md:text-lg">{selectedProject.description}</p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {selectedProject.tech.map((tech) => (
-                                <span key={tech} className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">
+                            {selectedProject.tech.map(({ tech, icon }) => (
+                                <span key={tech} className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded flex items-center gap-2">
+                                    <StackIcon name={icon} className='w-4' />
                                     {tech}
                                 </span>
                             ))}
@@ -47,6 +49,8 @@ export default function Modal({ projects, index, onClose }) {
                         <div className="flex space-x-4">
                             <a
                                 href={selectedProject.github}
+                                target='_blank'
+                                rel="noreferrer"
                                 className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
                             >
                                 <Github size={16} />
@@ -54,6 +58,8 @@ export default function Modal({ projects, index, onClose }) {
                             </a>
                             <a
                                 href={selectedProject.demo}
+                                target='_blank'
+                                rel="noreferrer"
                                 className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
                             >
                                 <ExternalLink size={16} />
