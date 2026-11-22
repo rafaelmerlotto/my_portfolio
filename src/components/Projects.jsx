@@ -64,6 +64,7 @@ export default function Projects({ projects }) {
                   <div className="flex space-x-4">
                     <a
                       href={project.github}
+                      target='_blank'
                       className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
                     >
                       <Github size={16} />
@@ -71,6 +72,7 @@ export default function Projects({ projects }) {
                     </a>
                     <a
                       href={project.demo}
+                      target='_blank'
                       className="flex items-center space-x-2 text-gray-400 hover:text-green-400 transition-colors"
                     >
                       <ExternalLink size={16} />
@@ -81,7 +83,7 @@ export default function Projects({ projects }) {
               </div>
             ))}
           </div>
-          {viewAllProjects && <button onClick={handleSeeProjects} className="bg-green-500 mt-10 hover:bg-green-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors max-md:text-lg">See all projects</button>}
+          {viewAllProjects && projects.length > 4 && <button onClick={handleSeeProjects} className="bg-green-500 mt-10 hover:bg-green-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors max-md:text-lg">See all projects</button>}
         </div>
       </section>
       {openModal && <Modal projects={projects} index={selectedIndex} onClose={handleCloseModal} />}
